@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question and Rating</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Mood Mosaic</h2>
+        <p>Take a playful journey to understand your thoughts and feelings better!!</p>
+        <div class="question_area">
+            <h1 id="question">1. How have you been feeling lately?</h1>
+            <form id="ratingForm">
+                <div class="input">
+                    <input type="radio" name="rating" value="3" id="good">
+                    <label for="good">Good</label>
+                </div>
+                <div class="input">
+                    <input type="radio" name="rating" value="2" id="normal">
+                    <label for="normal">Normal</label>
+                </div>
+                <div class="input">
+                    
+                    <input type="radio" name="rating" value="1" id="bad">
+                    <label for="bad">Bad</label>
+                </div>
+            </form>
+            
+            <button onclick="submitRating()">Next Question</button>
+        </div>
+
+        <!-- New div to display total score and mental health category -->
+        <div id="totalScore">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #22577a, #38a3a5); /* Light blue gradient */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 600px;
+    /* height: 600px; */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 40px 0;
+    height: 50px;
+    color: #333; /* Darker blue */
+    font-size: 24px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  h2{
+    margin: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+  }
+  p {
+    text-align: center;
+    color: #666; /* Lighter blue */
+    font-size: 20px;
+    font-family: cursive;
+    width: 60%;
+    line-height: 1.5;
+  }
+  .question_area{
+    /* border: 2px solid black; */
+    border-radius:10px ;
+    width: 95%;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .input {
+    margin: 0 10px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #333; /* Darker blue */
+    font-size: 24px;
+    line-height: 100px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="radio"]:checked + label {
+    background-color: #38a3a5; /* Light blue */
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #99ccff; /* Light blue */
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3399ff; /* Darker blue */
+  }
+  
+  #totalScore {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333; /* Darker blue */
+  }
+  
